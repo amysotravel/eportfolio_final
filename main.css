@@ -82,7 +82,9 @@ li a:hover:not(.active) {
 	float: right;
 	padding: 20px;
 }
+
 .main {
 	width: 100%;
 	height: 303;
 }
+
