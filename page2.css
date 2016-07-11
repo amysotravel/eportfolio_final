@@ -1,0 +1,28 @@
+@charset "utf-8";
+.maincontent3 {
+	padding: 20px;
+text-align:center;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	color:#189DBF;
+	font-size:30px
+}
+
+.floating-box {
+  width: 170px;
+  height: 40px;
+  color:#189DBF;
+text-align:center;
+  border-radius: 10px;
+  background-color: #eeeeee;border: 3px #189DBF;
+ float:left;
+
+}
+
+.lia
+{color:#0C173F;
+font-size: 15px;
+ 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	vertical-align:middle;
+	
+	
+}
