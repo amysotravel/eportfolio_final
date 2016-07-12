@@ -10,7 +10,7 @@ div {
 	padding: 0 50px 35px;
 	box-sizing: border-box;
 }
-#header, #main, #footer, #main {
+#header, #main, #footer {
 	position: relative;
 	width: 100%;
 	overflow: hidden;
@@ -23,7 +23,6 @@ div {
 	text-align: center;
 	background: rgba(0, 0, 0, .8);
 	display: table;
-	height: 220;
 	color: #189DBF;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 	padding: 70px 0;
@@ -47,7 +46,7 @@ li {
 	float: left;
 	color: #000000;
 }
-li a {
+li a.nav {
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 	/*EXAMPLE OF DISPLAY PROPERTY*/
 	display: block;
@@ -56,12 +55,20 @@ li a {
 	text-decoration: none;
 	color: #0C173F;
 }
-li a:hover:not(.active) {
+li a.nav:hover:not(.active) {
 	background-color: #189DBF;
 }
-.active {
+li a.nav2 {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	/*EXAMPLE OF DISPLAY PROPERTY*/
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	color: #0C173F;
 	background-color: #189DBF;
 }
+
 #body {
 	background-color: grey;
 	position: relative;
@@ -83,8 +90,4 @@ li a:hover:not(.active) {
 	padding: 20px;
 }
 
-.main {
-	width: 100%;
-	height: 303;
-}
 
