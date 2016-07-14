@@ -1,11 +1,11 @@
 @charset "utf-8";
+@import url("page3.css");
 .maincontent3 {
 	padding: 50px;
 	text-align: center;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 	color: #189DBF;
 	font-size: 30px;
-	
 }
 li a.links {
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
@@ -38,9 +38,8 @@ li a.links:hover:not(.active) {
 	font-size: 40px;
 	line-height: 40px;
 }
+.ulpadding {
+	padding: 20px;
+	align-content: center;
+}
 
-.ulpadding
-{padding:20px;
-align-content:center;
-	}
-	
